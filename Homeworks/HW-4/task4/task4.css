@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------HEADER------------------*/
+header{
+    height: 4.476vh;
+    background-color: #D9D9D9;
+}
+/*--------------------------MAIN-------------------------*/
+main{
+    display: flex;
+}
+main .left{
+    width: 28.819vw;
+    height: 85.586vh;
+    background-color: #A4A4A4;
+}
+main .middle{
+    width: 30.556vw;
+    height: 85.586vh;
+    background-color: #C1C1C1;
+
+}
+main .right{
+    display: flex;
+    flex-direction: column;
+}
+main .right .right-top{
+    height: 42.793vh;
+    width: 40.625vw;
+    background-color: #7F7A7A;
+}
+main .right .right-bottom{
+    height: 42.793vh;
+    width: 40.625vw;
+    background-color: #6B6161;
+}
+/*------------------FOOTER------------------------*/
+footer{
+    height: 9.937vh;
+    background-color:  #D9D9D9;
+}
