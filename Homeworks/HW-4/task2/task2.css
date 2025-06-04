@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------HEADER-----------------------------------*/
+header{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-color: #8D8484;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header p{
+    color: black;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+/*-----------------------------------MAIN-----------------------*/
+main{
+    display: flex;
+
+}
+main .content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 73.264vw;
+    height: 20vh;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #776969;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #643030;
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #441818;
+}
+main p{
+    color: white;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main .spam div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 26.852vw;
+    height: 29.902vh;
+}
+.spam1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #937575;
+}
+.spam2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #644C4C;
+}
+/*-----------------------------------FOOTER-------------------------------------*/
+footer{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-color: #8D8484;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p{
+    color: black;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
