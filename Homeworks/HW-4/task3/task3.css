@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-------------------HEADER--------------------*/
+header{
+    height: 4.476vh;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+/*----------------------------MAIN-------------------------*/
+main{
+    display: flex;
+}
+main .big{
+    width: 59.375vw;
+    height: 73.679vh;
+    background-color: #A4A4A4;
+}
+main .second{
+    display: flex;
+    flex-direction: column;
+}
+main .second .lilsec{
+    height: 39.839vh;
+    width: 40.625vw;
+    background-color: #7F7A7A;
+}
+main .second .lilsec2{
+    height: 33.841vh;
+    width: 40.625vw;
+    background-color: #615050;
+
+}
+/*------------------------------------SECTION------------------------------*/
+section{
+    height:9.937vh;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+/*-----------------------FOOTER---------------*/
+footer{
+    height: 11.907vh;
+    width: 100%;
+    background-color: #AFA9A9;
+}
+
